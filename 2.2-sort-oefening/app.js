@@ -12,7 +12,7 @@ const gesorteerdeScores = scores.sort((a, b) => a - b);
 console.log('Scores laag naar hoog:', gesorteerdeScores);
 
 // TODO: Sorteer scores van hoog naar laag
-const scoresHoogNaarLaag = scores.sort((a, b) => a - b);
+const scoresHoogNaarLaag = scores.sort((a, b) => b - a);
 console.log('Scores hoog naar laag:', scoresHoogNaarLaag);
 
 // TODO: Sorteer steden alfabetisch
