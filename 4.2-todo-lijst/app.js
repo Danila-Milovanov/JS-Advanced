@@ -13,7 +13,7 @@ function voegTaakToe() {
     }
 
     // TODO: Voeg taak toe aan array (gewoon de string)
-    taken.push(/*jouw code hier*/);
+    taken.push(nieuweTaak);
 
     // TODO: Sla taken op in localStorage
     localStorage.setItem('gebruikerData', JSON.stringify(gebruiker));
